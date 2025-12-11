@@ -1,0 +1,3 @@
+added blog posts and implemented get method, continue on to searching and get a particular blog post 
+populated both user and userprofile model while registering a user,created api to fetch user profile, continue on creating an api to fiter user with date and time
+

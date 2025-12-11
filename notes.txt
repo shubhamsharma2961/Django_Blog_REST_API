@@ -1,0 +1,39 @@
+//create virtual environment 
+python -m venv env 
+
+// activate env
+env\Scripts\activate
+
+// install django
+pip install django
+
+//creating project
+django-admin startproject <project-name> 
+
+//creating app
+python manage.py startapp <app-name>
+
+// create superuser
+python manage.py createsuperuser
+
+// to run migrations
+- python manage.py makemigrations
+- python manage.py migrate
+
+//install psycopg2
+pip install psycopg2-binary
+
+//authentication jwt token
+pip install djangorestframework-simplejwt
+
+//settings.py
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'your_database',
+        'USER': 'postgres',
+        'PASSWORD': 'root',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
+}
